@@ -10,8 +10,13 @@
 	</h:head>
 	<h:body>
 		<h:form>
-			<h:inputText id="name" value="#{theUserame}" a:placeholder="What's your name"/>
-			<h:commandButton value="Submit" action=myresponse/>
+			First Name: 
+			<h:inputText id="fName" value="#{fName}" a:placeholder="First Name"/>
+			<br/><br/>
+			Last Name: 
+			<h:inputText id="lName" value="#{lName}" a:placeholder="Last Name"/>
+			<br/><br/>
+			<h:commandButton value="Submit" action="myresponse"/>
 		</h:form>
 	</h:body>
 
